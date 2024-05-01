@@ -489,4 +489,9 @@ background-size: contain;
 }
 
 
+button:hover {
+    cursor: pointer;
+}
+
+
 
