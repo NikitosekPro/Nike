@@ -167,6 +167,9 @@ body {
     height:67px;
     color: var(--main-white);
     margin-bottom: 84px;
+    font-size: 24px;
+        font-weight: 400;
+        line-height: 28px;
 }
 
 /* benefits */
@@ -348,6 +351,9 @@ input:not(:last-child) {
     background-color: var(--purple);
     color: var(--main-white);
     border: none;
+    font-size: 24px;
+        font-weight: 400;
+        line-height: 28px;
 }
 
 
@@ -410,6 +416,7 @@ background-size: contain;
 .questions {
     display: flex;
     flex-direction: column;
+    width: 354px;
 }
 
 .email {
@@ -480,3 +487,6 @@ background-size: contain;
     text-decoration:underline 1px;
 
 }
+
+
+
