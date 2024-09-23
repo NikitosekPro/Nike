@@ -75,15 +75,17 @@ body {
 
 .img-logo {
     padding-top: 10px;
+    width: 100px;
+    
 }
 
 
-.nav {
+.header-nav {
     margin-left: 152px ;
     margin-right: 72px;
 }
 
-.list {
+.header-nav-list {
     display: flex;
     gap: 20px;
 }
@@ -92,6 +94,19 @@ body {
     color: var(--main-gray);
 }
 
+.header-nav-item:hover, :focus {
+    color: var(--main-white);
+}
+
+
+.item-link {
+    color: var(--main-gray);
+}
+
+
+.item-link:hover, :focus {
+    color: var(--main-white);
+}
 
 .list-item {
     display:inline;
@@ -99,7 +114,10 @@ body {
     gap: 20px;
     
     
+    
 }
+
+
 
 
 
@@ -167,6 +185,9 @@ body {
     height:67px;
     color: var(--main-white);
     margin-bottom: 84px;
+    font-size: 24px;
+        font-weight: 400;
+        line-height: 28px;
 }
 
 /* benefits */
@@ -254,7 +275,7 @@ padding-right: 70px;
     width: 255px;
     height: 299px;
     padding:  14px 14px 0 13px;
-    box-shadow: 0px 18px 0px -5px rgb(123, 84, 179), 0px 30px 0px -10px rgb(83, 57, 120) ;
+    box-shadow: 0px 16px 0px -5px rgb(123, 84, 179), 0px 30px 0px -10px rgb(83, 57, 120) ;
     padding-bottom: 10px;
     
     background-image: linear-gradient(135.00deg, var(--turquse1-1)7.292% , var(--blue1-2)26.042% , var(--lavend1-3)62.5% , var(--pink1-4)100%);
@@ -263,14 +284,14 @@ padding-right: 70px;
 
 .eliza {
     background-image: linear-gradient(135.00deg, var(--neon-pink2-1)0% , var(--magenta2-2)26.042% , var(--lavend2-3-4)62.841% , var(--lavend2-3-4)100%);
-    box-shadow: 0px 18px 0px -5px rgb(145, 89, 177), 0px 30px 0px -10px rgb(97, 51, 124);
+    box-shadow: 0px 16px 0px -5px rgb(145, 89, 177), 0px 30px 0px -10px rgb(97, 51, 124);
 }
 
 
 
 .maquare {
     background-image: linear-gradient(135.00deg, var(--yellow3-1)0% , var(--light-orange3-2)30.208% , var(--light-tomato3-3)63.286% , var(--raspberry3-4)100%);
-    box-shadow: 0px 18px 0px -5px rgb(185, 90, 76), 0px 30px 0px -10px rgb(115, 47, 38);
+    box-shadow: 0px 16px 0px -5px rgb(185, 90, 76), 0px 30px 0px -10px rgb(115, 47, 38);
 }
 
 
@@ -348,6 +369,9 @@ input:not(:last-child) {
     background-color: var(--purple);
     color: var(--main-white);
     border: none;
+    font-size: 24px;
+        font-weight: 400;
+        line-height: 28px;
 }
 
 
@@ -386,6 +410,7 @@ input:not(:last-child) {
 
 .input {
     border-radius: 50px;
+    padding-left: 10px;
 }
 
 
@@ -410,6 +435,7 @@ background-size: contain;
 .questions {
     display: flex;
     flex-direction: column;
+    width: 354px;
 }
 
 .email {
@@ -479,4 +505,9 @@ background-size: contain;
     color: var(--main-white);
     text-decoration:underline 1px;
 
+}
+
+
+button:hover {
+    cursor: pointer;
 }
